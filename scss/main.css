@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;600;700&display=swap");
+.custom-nav .navbar-brand img {
+  width: 50px;
+  height: 50px;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-link {
+  color: #4e4e4e;
+  font-weight: 600;
+  margin-left: 2em;
+}
+
+.custom-nav #navbarNav .navbar-nav:hover {
+  color: #577c8f;
+}
+
+@media screen and (max-width: 992px) {
+  .custom-nav {
+    margin-top: -1em;
+  }
+}
+
+@media screen and (max-width: 572px) {
+  .custom-nav {
+    margin-top: -1em;
+  }
+}
+/*# sourceMappingURL=main.css.map */
+
+hr{
+  width: 50%; 
+  border: 1px solid;
+}
+
+.nav-link :hover{
+color: #577c8f;
+border: 1px solid #577c8f;
+}
+
+.home img{
+  animation-name: home_animation;
+  animation-duration: 3s;
+}
+
+@keyframes home_animation{
+  0% {
+  opacity: 0%;
+  }
+  100% {
+  opacity: 100%;
+  }
+}
+
+.home h1{
+  font-size: 25px;
+  font-family: Aileron;
+  color: #577c8f;
+  font-weight: 300;
+  margin-top: 5em;
+}
+.home h2{
+  font-size: 50px;
+  color: #4e4e4e;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+.home h3{
+  font-size: 50px;
+  color:#333333;
+  font-weight: 700;
+  margin-top: -0.4em;
+}
+.home h4{
+  font-size: 25px;
+  font-family: Aileron;
+  color: #333333;
+  font-weight: 300;
+  margin-left: 8em;
+}
+.about h5{
+  margin-top: 4em;
+  font-size: 25px;
+  font-family: Aileron;
+  color: #333333;
+  font-weight: 600;
+}
+
+.about hr{
+  width: 50px;
+  border-top: 4px solid #577c8f;
+}
+.projects h5{
+  margin-top: 6em;
+  font-size: 25px;
+  font-family: Aileron;
+  color: #333333;
+  font-weight: 600;
+}
+
+.skill h5{
+  margin-top: 5em;
+  font-size: 25px;
+  font-family: Aileron;
+  color: #333333;
+  font-weight: 600;
+}
+
+.footer {
+  margin-top: 8em;
+  margin-bottom: 2em;
+  color:#577c8f;
+}
+.footer h6{
+  font-family: Aileron;
+  font-weight: 300;
+  font-size: 30px;
+  color: #4e4e4e;
+  margin-left: 2em;
+}
+.footer b{
+  font-family: Aileron;
+  font-weight: 600;
+  font-size: 30px;
+  color: #333333;
+  letter-spacing: -1px;
+}
+.footer h7{
+  font-size: 18px;
+  font-family: Aileron;
+  color: #333333;
+  font-weight: 300;
+  margin-left: 9em;
+}
+
+.custom-section {
+  margin-top: 3em;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(10px, 0.08fr));
+}
+
+/* Style buttons */
+.button {
+  margin-bottom: 4em;
+  margin-left: 15em;
+  border-radius: 4px;
+  background-color: #577c8f;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+.button:hover {
+background-color: #FFFFFF;
+padding: auto;
+border: 1px solid #333333;
+}
+
+.about p{ text-align: justify;}
